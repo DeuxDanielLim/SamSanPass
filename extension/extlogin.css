@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+  }
+.extension{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  width: 350px;
+  flex-direction: column;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(124,124,200,0.9864320728291317) 97%);
+  
+}
+
+.header{
+    width: 100%;
+    height:-10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -20px;
+    font-size: large;
+    color: #02079e;
+    font-family:monospace;
+}
+.container1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.login{
+    display: flex;
+}
+.create{
+    display: flex;
+}
+.wrappercontainer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+}
+.wrapper{
+    width: 100%;
+    padding: 10px;
+ 
+  }
+  .wrapper .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+  }
+  .wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+  }
+  .input-data input:focus ~ label,
+  .input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .wrapper .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .input-data .underline{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+  }
+  .input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scaleX(0);
+  }
+
+
+.buttoncontainer{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.loginbutton{
+    height: 100%;
+    width:100%;
+
+    align-content: center;
+}
+
+.button1{
+        margin:0;
+        font-size: 15px;
+        color: white;
+        background-color: #02079e;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 75px;
+        padding-right: 75px;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+
+
+.or{
+    height: 15px;
+    width:100px;
+    margin-bottom: 20px;
+
+ 
+}
+
+.createlink{
+    height: 25px;
+    width:200px;
+    font-size: 15px;
+    
+}
